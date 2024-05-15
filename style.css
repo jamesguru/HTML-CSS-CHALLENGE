@@ -1,0 +1,795 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Montserrat";
+}
+
+.header {
+  background-image: url("./images/header.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  margin-bottom: -150px;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #fff;
+  padding: 20px;
+}
+
+.links span {
+  margin: 20px;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+}
+
+.right-side button {
+  border: none;
+  border-radius: 5px;
+  background-color: #23a6f0;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  width: 180px;
+  padding: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.header-main-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 100px auto;
+  width: 60%;
+}
+
+.header-main-section-head {
+  font-size: 54px;
+  text-align: center;
+  color: #fff;
+}
+
+.header-main-section-desc {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.header-main-section-btn button:first-child {
+  background-color: #23a6f0;
+  border-radius: 25px;
+  font-size: 15px;
+  border: none;
+  padding: 15px;
+  color: #fbfcfb;
+  width: 150px;
+  cursor: pointer;
+}
+
+.header-main-section-btn button:nth-child(2) {
+  border-radius: 25px;
+  font-size: 15px;
+  border: 2px solid #fbfcfb;
+  padding: 15px;
+  background-color: transparent;
+  width: 150px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px auto;
+  width: 90vw;
+  justify-content: space space-evenly;
+  align-items: center;
+}
+
+.option-item {
+  background-color: #fbfcfb;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 200px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.option-item:nth-child(3) {
+  background-color: #23a6f0;
+  color: #fbfcfb;
+}
+
+.option-icons {
+  color: #23a6f0;
+  font-size: 70px;
+}
+
+.option-item:nth-child(3) .option-icons {
+  color: #fbfcfb;
+}
+
+.option-item span {
+  font-size: 18px;
+}
+
+.benefits {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 100px 50px;
+  width: 90vw;
+}
+
+.benefit-item {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.benefit-icon {
+  color: #23a6f0;
+  font-size: 50px;
+}
+
+.benefit-item h2 {
+  color: #23a6f0;
+}
+
+.benefit-item span {
+  font-size: 20px;
+}
+
+.industry {
+  background-color: #fbfcfb;
+  height: 100vh;
+  padding: 20px;
+}
+
+.industry-header {
+  color: #252b42;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.industry-description {
+  color: #252b42;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 22px;
+  width: 60%;
+  margin: 50px 250px;
+}
+
+.clients {
+  display: flex;
+  align-items: center;
+  margin: 30px;
+  justify-content: space-evenly;
+}
+
+.client-item {
+  height: 320px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.client-image {
+  height: 150px;
+  width: 150px;
+  padding-top: 20px;
+  margin: 0px auto;
+}
+
+.client-desc {
+  font-weight: 200;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.rating {
+  margin: 30px;
+}
+
+.sponsors {
+  margin: 50px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.sponsors img {
+  object-fit: contain;
+  height: 100px;
+  width: 100px;
+}
+
+.newsletter {
+  background-image: linear-gradient(to right, rgb(7, 7, 87), #b00cf4);
+  height: 300px;
+  margin: 100px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.newsletter-header {
+  color: #fbfcfb;
+  margin-left: 50px;
+  width: 400px;
+  font-size: 30px;
+}
+
+.newsletter-input {
+  background-color: #fbfcfb;
+  width: 400px;
+  display: flex;
+  height: 60px;
+  border-radius: 5px;
+  margin-right: 100px;
+}
+
+.newsletter-input input {
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-size: 18px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.newsletter-input button {
+  border: none;
+  background-color: #23a6f0;
+  color: #fbfcfb;
+  font-size: 15px;
+  padding-right: 9px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.pricing {
+  background-color: #fbfcfb;
+}
+
+.pricing-header {
+  text-align: center;
+  width: 30%;
+  margin: 100px auto;
+}
+
+.pricing-header h3 {
+  color: #252b42;
+}
+
+.pricing-card {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricing-card-item {
+  width: 300px;
+  height: 500px;
+  border-radius: 10px;
+  border: 2px solid #23a6f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.pricing-card-item:nth-child(2){
+  padding-top: 120px;
+  background-color: #252b42;
+  color: #fbfcfb;
+  border: none;
+}
+
+.pricing-card-item h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #252b42;
+}
+
+.pricing-card-item span{
+  display: flex;
+  width: 200px;
+  text-align: center;
+  margin: auto 50px;
+}
+
+.price-dollar{
+  display: flex;
+  align-items: center;
+  margin: auto 50px;
+}
+
+.pricing-dollar-header{
+  font-weight: 900;
+  font-size: 35px;
+  margin-right: 10px;
+  color: #252b42;
+}
+
+.pricing-card-item:nth-child(2) .pricing-dollar-header{
+  color: #fbfcfb;
+}
+
+.pricing-doller-price{
+  font-weight: 900;
+  color: #23a6f0;
+}
+
+.price-dollar-price p:last-child{
+  color: #23a6f0;
+  opacity: 0.6;
+  font-weight: 900;
+}
+
+.price-desc-item{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-weight: 500;
+  width: 100%;
+}
+
+.price-desc-item p{
+  font-weight: 700;
+  text-align: right;
+  width: 100%;
+}
+
+.check-icon{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #3cB043;
+  padding: 5px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.price-desc-item:nth-child(4) .check-icon{
+  background-color: #AAA;
+}
+
+.price-desc-item:nth-child(5) .check-icon{
+  background-color: #AAA;
+}
+
+.btn-price{
+  width: 300px;
+  background-color: #23a6f0;
+  border-radius: 5px;
+  font-weight: 700;
+  color: #fbfcfb;
+  border: none;
+  padding: 10px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.reach{
+  background-color: #252b42;
+  margin-top: 100px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  margin-bottom: -300px;
+  
+}
+
+.reach-desc{
+  flex: 1;
+  margin: 100px 300px;
+  color: #fbfcfb;
+  width: 20%;
+}
+
+.reach-image{
+  flex: 1;
+  margin: 100px;
+}
+
+
+.appointment{
+  height: 50%;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fbfcfb;
+  margin: 0px 300px;
+}
+
+.appointment-image img{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.appointment-desc{
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.appointment-desc h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #252b42;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.input-description{
+  display: flex;
+  flex-direction: column;
+  margin: 20px 50px;
+  color: #AAA;
+}
+
+.appointment-btn{
+  margin: 50px;
+  padding: 15px;
+  border: none;
+  background-color: #23a6f0;
+  color: #fbfcfb;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+label{
+  font-weight: 500;
+}
+
+.input-desc{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #AAA;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #fbfcfb;
+}
+
+.input-desc ion-icon{
+  font-size: 18px;
+}
+
+.input-description input{
+  outline: none;
+  border: none;
+  color: #AAA;
+  opacity: 0.6;
+}
+
+.consult{
+  margin: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #333;
+}
+
+.consult-btn button{
+padding: 10px;
+background-color: #23a6f0;
+border: none;
+color: #fbfcfb;
+font-weight: 900;
+border-radius: 5px;
+}
+
+
+.footer-upper{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.footer-item{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-item h3{
+  color: #252b42;
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.footer-item li{
+  list-style: none;
+  margin-bottom: 20px;
+  color: #AAA;
+  font-weight: 500;
+}
+
+.footer-icon{
+  color: #23a6f0;
+  font-size: 30px;
+  font-weight: 800;
+  margin-right: 10px;
+}
+
+.footer-item:nth-child(5) li{
+  display: flex;
+  align-items: center;
+}
+
+.footer-lower{
+  background-color: #fbfcfb;
+}
+
+.footer-lower-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 150px;
+  padding: 20px;
+}
+
+.footer-lower p{
+  font-size: 15px;
+  font-weight: 500;
+  color: #AAA;
+}
+
+/* MOBILE DESIGN AND TABLET DESIGN */
+
+@media screen and (max-width:1200px){
+
+  .header{
+    margin-bottom: 100px;
+    height: auto;
+    padding-bottom: 10px;
+    position: relative;
+  }
+
+  .links{
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 12px;
+  }
+
+  .header-main-section-desc{
+    margin: 20px auto;
+  }
+
+  .client-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px;
+  }
+
+  .pricing-card-item{
+    width: 250px;
+  }
+}
+
+@media screen and (max-width:1500px){
+
+  .header{
+    margin:0px;
+  }
+
+  .benefit-item{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .reach{
+    margin-bottom: 50px;
+  }
+
+  .reach-desc{
+    width: 50%;
+    flex: 1;
+    margin: 20px;
+    font-size: 14px;
+  }
+
+  .reach-desc h1{
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .reach-image{
+    width: 50%;
+    flex: 1;
+    margin: 20px;
+  }
+
+  .appointment{
+    width: 80%;
+    margin: 50px;
+  }
+
+  .newsletter-header{
+    width: 80%;
+  }
+
+  .newsletter-input{
+    width: 80%;
+    margin: 50px;
+    position: relative;
+  }
+
+
+  .newsletter-input button{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 15px;
+  }
+
+  .sponsors{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width:600px){
+
+.right-side button{
+  width: 100px;
+  font-size: 9px;
+
+}
+
+.header-main-section{
+  width: 100%;
+}
+
+.header-main-section-head{
+  font-size: 24px;
+  margin: 10px;
+}
+
+.header-main-section-desc{
+  font-size: 14px;
+  margin: 30px;
+  text-align: center;
+}
+
+.options{
+  width: 100%;
+}
+
+.benefits{
+  display: flex;
+  flex-direction: column;
+}
+
+.benefits-item{
+  margin: 20px;
+  padding: 10px;
+}
+.industry{
+  height: auto;
+}
+
+
+.industry-header{
+  margin: 0px;
+}
+
+.industry-description{
+  margin: 10px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clients{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.sponsors{
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 10px;
+}
+
+.pricing-header{
+  margin: 10px;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.pricing-card{
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing-card-item{
+  margin: 20px 0px;
+}
+
+.reach{
+  display: flex;
+  flex-direction: column;
+}
+
+.consult{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 10px;
+}
+
+.consult button{
+  width: 200px;
+  margin: 20px;
+}
+
+.footer-upper{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.footer-lower-item{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 20px;
+}
+
+.footer-lower-item p{
+  margin: 10px 0px;
+}
+}
